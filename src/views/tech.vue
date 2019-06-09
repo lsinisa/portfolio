@@ -1,6 +1,5 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <div class="tech">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -10,15 +9,12 @@
 import HelloWorld from '@/components/HelloWorld.vue';
 
 export default {
-  name: 'home',
+  name: 'tech',
   components: {
     HelloWorld,
   },
 };
 </script>
 
-<style lang="sass">
-img
-  padding: 10% 0 0 0
+<style lang="scss">
 </style>
-
